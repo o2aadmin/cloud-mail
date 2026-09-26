@@ -1,0 +1,14 @@
+{
+  "name": "cloud-mail",
+  "main": "src/index.js", // 如果你的程式碼主檔案是 .ts，請改為 "src/index.ts"
+  "compatibility_date": "2026-09-27",
+  "observability": {
+    "enabled": true
+  },
+  "routes": [
+    {
+      "pattern": "://out2all.com",
+      "custom_domain": true
+    }
+  ]
+}
